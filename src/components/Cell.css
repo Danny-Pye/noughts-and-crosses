@@ -1,0 +1,20 @@
+.cell{
+    border: 1px solid #ddd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+    background-color: #666;
+    cursor: pointer;
+    flex: 1;
+    width: calc(80vw / 3);
+    height: calc(80vh / 3);
+}
+
+.cell:hover{
+    background-color: darkgrey;
+}
+
+.cell:active{
+    transform: scale(1.1);
+}
